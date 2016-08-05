@@ -1,0 +1,79 @@
+$email-border-color: #7C96AB;
+$email-summary-background: white;
+$email-header-background: white;
+
+$tab-button-color: white;
+$tab-button-color-inactive: #e0e0e0;
+$tab-content-background: white;
+
+.email {
+  .email-summary {
+    font-weight: bold;
+    border-top: 5px solid $email-border-color;
+    border-bottom: 1px solid $email-border-color;
+    padding: 10px;
+    background-color: $email-summary-background;
+  }
+
+  .email-headers {
+    background-color: $email-header-background;
+
+    dl {
+      padding: 0 0 4px;
+      color: black;
+      overflow: hidden;
+
+      dt {
+        float: left;
+        color: black;
+        margin: 0 3px 0 0;
+      }
+      dd {
+        display: block;
+        overflow: hidden;
+        margin-bottom: .3rem;
+      }
+    }
+  }
+
+  .mail-content {
+    background-color: $tab-content-background;
+    padding-left: 20px;
+    overflow: hidden;
+  }
+}
+
+body {
+  background: #eeeeee;
+}
+
+footer p {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.email-table {
+  margin-top: 20px;
+  background: white;
+}
+
+.waiting-screen {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+div.min-height {
+  min-height: 400px;
+}
+
+.nav-container {
+  background-color: #D9E2E9;
+  //heigh: 300px;
+}
+
+.octicon-inbox {
+  display: inline-block;
+  width: 26px;
+  height: 23px;
+  background: url('octicon-inbox.gif') no-repeat;
+}

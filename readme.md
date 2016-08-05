@@ -43,28 +43,29 @@ Install php dependecies:
 
     composer install
 
+Copy backend sources: 
+
+    cp -rv src/{backend.php,config.sample.php} dist/
+
 Install javascript dependencies:
 
     npm install
 
 Build frontend:
 
-    gulp build
+    npm run build
 
 The files are written to the `dist` directory. See also `build.sh`.
 
 There is a [Vagrantfile](Vagrantfile), in case you are familiar  with [vagrant](https://www.vagrantup.com/).
 
 ## TODO
- 1. reduce total dist size (<1 MB)
  1. setup a link redirection provider (to keep the existence of your installation secret)
  1. maybe make mails collapsible
  1. provide error message if config.php is missing or in a public folder. 
- 
+
 ## Credit
 
 This could not be possible without...
 
- * http://angularjs.org/
- * https://github.com/SchweizerischeBundesbahnen/esta-webjs
  * https://github.com/barbushin/php-imap
