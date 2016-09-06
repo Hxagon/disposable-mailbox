@@ -36,42 +36,29 @@ $tab-content-background: white;
       dd {
         display: block;
         overflow: hidden;
+        margin-bottom: .3rem;
       }
     }
   }
 
-  .email-tabs {
-    background-color: $email-header-background;
-    border-bottom: 1px solid $email-border-color;
-
-    .nav {
-      padding-left: 10px;
-    }
-
-    .mail-conent {
-      background-color: $tab-content-background;
-      padding: 20px;
-      overflow: hidden;
-    }
-
-    /* Tab Button (disabled)*/
-    .nav-tabs > li.disabled > a:hover,
-    .nav-tabs > li.disabled > a:focus {
-      background-color: $tab-button-color-inactive;
-    }
-
-    /* Tab Button (incative)*/
-    .nav-tabs > li > a {
-      background-color: $tab-button-color-inactive;
-    }
-
-    /* Tab Button (active)*/
-    .nav-tabs > li.active > a,
-    .nav-tabs > li.active > a:hover,
-    .nav-tabs > li.active > a:focus {
-      background-color: $tab-button-color;
-    }
-
+  .mail-content {
+    background-color: $tab-content-background;
+    padding-left: 20px;
+    overflow: hidden;
   }
+}
+
+.email-table {
+  margin-top: 20px;
+  background: white;
+}
+
+.waiting-screen {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+div.min-height {
+  min-height: 400px;
 }
 

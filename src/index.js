@@ -2,11 +2,11 @@
 import angular from "angular";
 import uiRouter from "angular-ui-router";
 import uiBootstrap from "angular-ui-bootstrap";
-import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/scss/bootstrap.scss";
 import "babel-polyfill";
 import angularStickyfill from "angular-stickyfill";
 import "angular-stickyfill/dist/angular-stickyfill.css";
-import Mailbox from "./mailbox/mailbox";
+import Mailbox from "./mailbox/mailbox"; // adds 80kb
 
 // Interne Modul-Imports
 

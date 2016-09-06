@@ -1,42 +1,31 @@
-<div class="navbar" role="navigation">
+<div class="nav-container">
     <div class="container">
-
-        <div class="hidden-xs">
-            <div class="navbar-header">
-                <a class="navbar-brand"><span class="octicon-inbox"></span> Mailbox</a>
-            </div>
-
-            <form class="navbar-form navbar-left">
-                <a class="btn btn-default" ng-click="$ctrl.gotoRandomAddress()" role="button">
-                    <span class="glyphicon glyphicon-random" aria-hidden="true"></span>
-                    create random
-                </a>
-            </form>
+        <nav class="navbar navbar-light">
+            <a class="navbar-brand"><span class="octicon-inbox"></span>
+                &nbsp;
+                {{$ctrl.address}}
+                &nbsp;
+                <span ng-if="$ctrl.mails.length" class="tag tag-pill tag-default">{{$ctrl.mails.length}}</span>
+            </a>
 
 
-            <form class="navbar-form navbar-left" role="search" ng-submit="$ctrl.gotoMailbox($ctrl.address)">
-                <input ng-model="$ctrl.address" type='text' class="form-control"/>
-                <button type="submit" class="btn btn-default">open</button>
-            </form>
-        </div>
+            <ul class="nav navbar-nav">
 
+                <button type="button nav-link" class="btn btn-outline-primary pull-xs-right"
+                        ng-click="$ctrl.gotoRandomAddress()">
+                    <span class="glyphicon glyphicon-random"></span>&nbsp;
+                    randomize
+                </button>
 
-        <form ng-submit="$ctrl.gotoMailbox($ctrl.address)">
-            <div class="form-inline visible-xs-block">
-                <div class="form-group col-xs-4">
-                    <span class="octicon-inbox"></span></a>
-                    <a class="btn btn-default" ng-click="$ctrl.gotoRandomAddress()" role="button">
-                        <span class="glyphicon glyphicon-random" aria-hidden="true"></span>
-                    </a>
-                </div>
-                <div class="form-group col-xs-6">
-                    <input ng-model="$ctrl.address" type='text' class="form-control"/>
-                </div>
-                <div class="form-group col-xs-2">
-                    <button type="submit" class="btn btn-default">open</button>
-                </div>
-            </div>
-        </form>
+                <form class="form-inline pull-xs-right" ng-submit="$ctrl.gotoMailbox($ctrl.address)">
+                    <input ng-model="$ctrl.address"
+                           placeholder="username"
+                           type="text" class="form-control"/>
+                    <button type="submit" class="btn btn-outline-success">login</button>
+                </form>
+
+            </ul>
+        </nav>
     </div>
 </div>
 
