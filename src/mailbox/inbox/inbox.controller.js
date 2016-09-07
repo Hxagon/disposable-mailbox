@@ -1,4 +1,3 @@
-import phonetic from 'phonetic';
 
 class MailboxController {
     /*@ngInject*/
@@ -25,32 +24,12 @@ class MailboxController {
     }
 
 
-    static cleanUsername(username) {
-        return username.replace(/[@].*$/, '');
-    }
-
-    gotoMailbox(username) {
-        username = MailboxController.cleanUsername(username);
+    gotoMailbox({username}) {
+        username = this.mailboxService.cleanUsername(username);
         this.address = username; // use username until real address has been loaded
         this.$state.go('inbox', {username: username});
     }
 
-    gotoRandomAddress() {
-        let username = this.generateRandomUsername();
-        this.gotoMailbox(username);
-    }
-
-    generateRandomUsername() {
-        let username = phonetic.generate({syllables: 3, phoneticSimplicity: 1});
-        if (Math.random() >= 0.5) {
-            username += this.getRandomInt(30, 99);
-        }
-        return username.toLowerCase();
-    }
-
-    getRandomInt(min, max) {
-        return Math.floor(Math.random() * (max - min)) + min;
-    }
 
     $onDestroy() {
         this.$log.debug("destroying controller");

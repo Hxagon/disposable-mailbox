@@ -1,33 +1,4 @@
-<div class="nav-container">
-    <div class="container">
-        <nav class="navbar navbar-light">
-            <a class="navbar-brand"><span class="octicon-inbox"></span>
-                &nbsp;
-                {{$ctrl.address}}
-                &nbsp;
-                <span ng-if="$ctrl.mails.length" class="tag tag-pill tag-default">{{$ctrl.mails.length}}</span>
-            </a>
-
-
-            <ul class="nav navbar-nav">
-
-                <button type="button nav-link" class="btn btn-outline-primary pull-xs-right"
-                        ng-click="$ctrl.gotoRandomAddress()">
-                    <span class="glyphicon glyphicon-random"></span>&nbsp;
-                    randomize
-                </button>
-
-                <form class="form-inline pull-xs-right" ng-submit="$ctrl.gotoMailbox($ctrl.address)">
-                    <input ng-model="$ctrl.address"
-                           placeholder="username"
-                           type="text" class="form-control"/>
-                    <button type="submit" class="btn btn-outline-success">login</button>
-                </form>
-
-            </ul>
-        </nav>
-    </div>
-</div>
+<header address="$ctrl.address" on-change-username="$ctrl.gotoMailbox($event)" mailcount="$ctrl.mails.length"/>
 
 
 <main>
