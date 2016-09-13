@@ -8,11 +8,13 @@ class MailboxService {
     }
 
     loadEmails(username) {
-        return this.$http.get(this.config.backend_url, {params: {username: username, action: "get"}})
-            .then(response=> {
-                    return response.data;
-                }
-            );
+        let sample = require('../../sample.json');
+        return Promise.resolve(sample);
+        // return this.$http.get(this.config.backend_url, {params: {username: username, action: "get"}})
+        //     .then(response=> {
+        //             return response.data;
+        //         }
+        //     );
     }
 
     generateRandomUsername() {

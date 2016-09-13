@@ -1,0 +1,42 @@
+{
+  "mails": [
+    {
+      "id": 509,
+      "date": "2016-09-05 00:21:24",
+      "subject": "Thank you, True. \"Put.io 100GB for 30 Days\" is yours.",
+      "fromName": "put.io support",
+      "fromAddress": "mailer@fastspring.com",
+      "to": {
+        "trueworld@dubgo.com": "True World"
+      },
+      "toString": "True World <trueworld@dubgo.com>",
+      "cc": [],
+      "replyTo": {
+        "info@put.io": null
+      },
+      "messageId": "<01000156f74ab822-1d813ef0-6d7e-4447-ac31-e640d6bc78c5-000000@email.amazonses.com>",
+      "textPlain": "Thank you so much for being with us.\r\nIf you need anything our FAQ is at http:\/\/faq.put.io, or you can always talk to us directly using the support link on the top right corner of put.io or by writing to info@put.io (Same thing.)\r\n\r\nWe hope you enjoy it. \r\n\r\n--the put.io team",
+      "textHtml": "<p>Thank you so much for being with us.<\/p>\r\n\r\n<p>If you need anything our FAQ is at <a href=\"http:\/\/faq.put.io\">http:\/\/faq.put.io<\/a>, or you can always talk to us directly using the support link on the top right corner of put.io or by writing to <a href=\"mailto:info@put.io\">info@put.io<\/a> (Same thing.)<\/p>\r\n\r\n<p>We hope you enjoy it.<\/p>\r\n\r\n<p>--the put.io team<\/p>"
+    },
+    {
+      "id": 510,
+      "date": "2016-09-05 00:21:24",
+      "subject": "Your Order: Put.io 100GB for 30 Days [PUT160904-6243-15118]",
+      "fromName": "put.io support",
+      "fromAddress": "mailer@fastspring.com",
+      "to": {
+        "trueworld@dubgo.com": "True World"
+      },
+      "toString": "True World <trueworld@dubgo.com>",
+      "cc": [],
+      "replyTo": {
+        "info@put.io": null
+      },
+      "messageId": "<01000156f74ab718-537ce473-f9be-43b3-a6f9-8e04cc13140e-000000@email.amazonses.com>",
+      "textPlain": "Thank you for your order!\r\n\r\nYour order is currently processing.  You will receive additional information via a separate email.\r\n\r\nCharges will appear on your bill as: \"fsprg.com put.io\"\r\n\r\n------------------------------------\r\nYour Order\r\n------------------------------------\r\n\r\nOrder ID:  PUT160904-6243-15118\r\nTotal:  CHF 9.99\r\n\r\nTrue World\r\ntrueworld@dubgo.com\r\nAAA\r\n\r\nAAA\r\n 0000\r\nSwitzerland\r\n\r\nPut.io 100GB for 30 Days\r\n\r\n------------------------------------\r\nhttps:\/\/sites.fastspring.com\/putio\/order\/invoice\/PUT160904-6243-15118\r\n\r\n---\r\nput.io Support\r\ninfo@put.io",
+      "textHtml": "<div style=\"font-size: 12px; font-family: Helvetica, arial, sans-serif; color:black;\">\r\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\t<tr>\t\t<td align=\"left\" valign=\"top\" width=\"60%\">\t\t\t<p>Thank you for your order!<\/p>\r\n\t\t\t\r\n\t\t\t\t\t\t<p>Your order is currently processing.  You will receive additional information via a separate email.<\/p>\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\t\t<p>Charges will appear on your bill as: <b>fsprg.com put.io<\/b><\/p>\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t<p style=\"font-size: 11px; color: gray\"><a href=\"https:\/\/sites.fastspring.com\/putio\/order\/invoice\/PUT160904-6243-15118\">https:\/\/sites.fastspring.com\/putio\/order\/invoice\/PUT160904-6243-15118<\/a><\/p>\r\n\t\t<\/td>\r\n\t\t<td align=\"right\" valign=\"top\" width=\"40%\">\t\t\t<div style=\"color: rgb(68, 68, 68); margin-left:30px; margin-top: 1em; margin-right:50px;padding:8px;border:1px solid #E2DFB1;text-align:left\">\t\t\t\tTrue World<br\/>\r\n\t\t\t\ttrueworld@dubgo.com<br\/>\r\n\t\t\t\t\t\t\t\t\tAAA<br\/>\r\n\t\t\t\t\t\t\t\t\t\tAAA<br\/>\r\n\t\t\t\t\t 0000<br\/>\r\n\t\t\t\t\tSwitzerland\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<\/div>\r\n\t\t<\/td>\r\n\t<\/tr>\r\n<\/table>\r\n\r\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"0\" style=\"margin-top: 1em; margin-bottom: 1em\" width=\"100%\">\t<tr>\t\t<td>\t\t\t<table border=\"0\" cellpadding=\"4\" cellspacing=\"0\" style=\"background-color:#E5ECF9\" width=\"100%\">\t\t\t\t<tr>\t\t\t\t\t<td>Order ID:<b> PUT160904-6243-15118<\/b><\/td>\r\n\t\t\t\t<\/tr>\t\t\r\n\t\t\t<\/table>\t\t<\/td>\r\n\t<\/tr>\r\n\t<tr>\t\t<td>\t\t\t<table border=\"0\" cellpadding=\"4\" cellspacing=\"0\" style=\"border-color:#E5ECF9\" width=\"100%\">\t\t\t\t\t\t\t\t<tr>\t\t\t\t<td align=\"center\" valign=\"top\">1<\/td>\r\n\t\t\t\t<td align=\"left\" valign=\"top\">Put.io 100GB for 30 Days\t\t\t\t\t\t\t\t\t<\/td>\r\n\t\t\t\t<\/tr>\r\n\t\t\t\t\r\n\t\t\t<\/table>\t\t\t\r\n\t\t<\/td>\t<\/tr>\r\n\t<tr>\t\t<td align=\"left\">\t\t\t<table border=\"0\" cellpadding=\"4\" cellspacing=\"0\" style=\"font-size: 14px; background-color:#E5ECF9\" width=\"100%\">\t\t\t\t<tr>\t\t\t\t\t<td align=\"left\">\t\t\t\t\t<b>Total: CHF 9.99<\/b>\r\n\t\t\t\t\t<\/td>\r\n\t\t\t\t<\/tr>\r\n\t\t\t<\/table>\t\t\r\n\t\t<\/td>\t<\/tr>\r\n<\/table>\r\n\r\n<\/div>\r\n<hr><\/hr>\r\nput.io Support<br\/>\r\ninfo@put.io"
+    }
+  ],
+  "username": "trueworld",
+  "address": "trueworld@dubgo.com"
+}
